@@ -5,4 +5,11 @@
     flex-direction: row;
     justify-content: center;
 }
-
+@media screen and (max-width:450px){
+    .container_articles{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

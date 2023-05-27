@@ -27,3 +27,16 @@
     width: 100%;
     min-width: 400px;
 }
+@media screen and (max-width:450px) {
+    .container_big-card{
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .big-card_img img {
+        width: 100%;
+        min-width: 350px;
+    }
+}
